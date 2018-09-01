@@ -6,6 +6,7 @@ MailJet permet quand à lui d'envoyer les emails grace au SMTP
 ```
 Il faut appeler le mailer comme un service -> MachinMailer.newsletter_email(params).deliver,
 puis cela envoie l'email. 
+
 Il te faudra brancher a un service ton Action Mailer qui va passer en production,
 avec les bonnes clés d'API, puis de brancher un service qui permet de lire tes emails 
 en développement(maildev), et à toi la gloire.
